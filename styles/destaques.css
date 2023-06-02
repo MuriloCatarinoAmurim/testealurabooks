@@ -1,0 +1,68 @@
+.destaques_card{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+.destaques_descrição{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descrição_destaques-titulo{
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.descrição_nome-autor{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    margin: 0.5em 0;
+}
+
+.decrição_autor{
+    font-size: 14px;
+    color: var(--preto-texto);
+}
+
+.destaques_botões{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botão{
+    display: flex;
+}
+
+.botão_ancora{
+    background: var(--laranja);
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 1.1em 2.2em 0em 2.2em;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .destaques_card{
+        width: 40%;
+        margin: 2em auto;
+    }
+    
+}
+
+@media screen and (min-width: 1728px){
+
+    .destaques_card{
+        width: 30%;
+        margin: 6em auto;
+    }
+
+    .descrição_destaques-titulo{
+        font-size: 32px;
+    }
+}
